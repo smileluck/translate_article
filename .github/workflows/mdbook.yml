@@ -31,7 +31,6 @@ jobs:
     env:
       MDBOOK_VERSION: 0.4.21
     steps:
-      - run: cd mdbook
       - uses: actions/checkout@v3
       - name: Install mdBook
         run: |
