@@ -1,0 +1,6 @@
+[book]
+authors = ["smileluck"]
+language = "en"
+multilingual = false
+src = "src"
+title = "transalate"
