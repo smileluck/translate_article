@@ -40,8 +40,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-      - name: Enter Direct
-        run: cd mdbook
       - name: Build with mdBook
         run: mdbook build
       - name: Upload artifact
